@@ -6,18 +6,21 @@ In this exercise you will create your project repository using GitHub Desktop, l
 
 Based on your customers' previous research, they realized they want to focus on the following files:
 
-title.basics.tsv.gz
-title.ratings.tsv.gz
-title.akas.tsv.gz
+**title.basics.tsv.gz**
 
-Downloads page: ![Link to IMDB](https://datasets.imdbws.com/)
+**title.ratings.tsv.gz**
+
+**title.akas.tsv.gz**
+
+Downloads page: [Link to IMDB](https://datasets.imdbws.com/)
 
 ## Problem Description
-You’re writing software to help your customer better understand what motivates movie goers and in which movies to invest.
-Overview/Data Dictionary: ![Link to IMDB Data Dictionary](https://www.imdb.com/interfaces/)
+You have been hired to produce a MySQL database on Movies from a subset of IMDB's publicly available dataset. Ultimately, you will use this database to analyze what makes a movie successful and will provide recommendations to the stakeholder on how to make a successful movie.
+
+Overview/Data Dictionary: [Link to IMDB Data Dictionary](https://www.imdb.com/interfaces/)
 
 ## Solution Description
-IMDB Provides Several Files with varied information for Movies, TV Shows, Made for TV Movies, etc.
+IMDB provides several files with varied information for Movies, TV Shows, Made for TV Movies, etc.
 
 ### Specifications
 Your stakeholder only wants you to include information for movies based on the following specifications:
