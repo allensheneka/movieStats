@@ -41,9 +41,16 @@ After filtering out movies that do not meet the stakeholder's specifications:
 
 + Before saving, run a final .info() for each of the dataframes to show a summary of how many movies remain and the datatypes of each feature
 
-+ Save each file to a compressed csv file "Data/" folder inside your repository.
++ Concatenate the TMDB API data results into **one** dataframe, then do some light Exploratory Data Analysis (EDA):
 
-+ Commit your changes to your repository in GitHub desktop and Publish repository / Push Changes.
+1. How many movies had at least some valid financial information (values > 0 for budget OR revenue)?
+(Please exclude any movies with 0's for budget AND revenue from the remaining visualizations)
 
-+ Submit the link to your repository
+2. How many movies are there in each of the certification categories (G/PG/PG-13/R)?
+
+3. What is the average revenue per certification category?
+
+4. What is the average budget per certification category?
+
++ Remember to save your combined TMDB API data results as a .csv.gz file
  
